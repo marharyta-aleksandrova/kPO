@@ -1,7 +1,7 @@
 # *k*-Pareto Optimality-Based Sorting with Maximization of Choice
 
 This directory contains the code in ``Python`` for the paper "*k*-Pareto Optimality-Based 
-Sorting with Maximization of Choice", [preprint](https://arxiv.org/abs/2201.08206).
+Sorting with Maximization of Choice", [preprint is available here](https://arxiv.org/abs/2201.08206).
 
 To generate images demonstrating different characteristics of sorting by
 *k*-Pareto optimality, check `plots-for-paper.ipynb` notebook.
