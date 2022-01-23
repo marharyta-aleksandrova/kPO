@@ -1,0 +1,41 @@
+#!/usr/bin/python2
+
+import pandas as pd
+
+country_data = pd.read_csv("wealthy_countries/output.csv")
+# country_data.head()
+
+ax = country_data[~country_data['is_poor']].plot(
+    kind='scatter',
+    x='gni',
+    y='hdi',
+    c='k',
+    grid=True,
+)
+
+ax = country_data[country_data['is_poor']].plot(
+    kind='scatter',
+    x='gni',
+    y='hdi',
+    c='grey',
+    grid=True,
+    ax=ax,
+)
+
+ax.set_xlabel('Gross National Income (GNI)')
+ax.set_ylabel('Education  and  Health  Indicator')
+ax.legend(['wealthy', 'non-wealthy'])
+
+#tikzplotlib.save('wealth_indicator.tex') 
+plt.savefig('wealth_indicator.png')
+
+# fit logistic regression and compute at risk of poverty income
+
+from sklearn.linear_model import  LogisticRegression
+
+logit = LogisticRegression()
+logit.fit(country_data[['gni']].values, country_data['is_poor'].values)
+
+print('Coefficients of logistic regression:')
+print(logit.coef_)
+print(logit.intercept_)
