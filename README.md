@@ -18,7 +18,7 @@ Alternatively, use the following scripts:
 To test the proposed genetic optimization algorithms *PO-count* and *PO-prob*, 
 use `Knapsack-k_Pareto_optimality.ipynb`.
 
-Check the code in `deap/tools/emo.py` for the implementations 
+Check the code in [`deap/tools/emo.py`](deap/tools/emo.py) for the implementations 
 of *PO-count* (`sortPO()`) and *PO-prob* (`sortPOprob()`).
 
 ## Requirements:
