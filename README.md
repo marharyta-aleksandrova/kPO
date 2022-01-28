@@ -29,5 +29,5 @@ of *PO-count* (`sortPO()`) and *PO-prob* (`sortPOprob()`).
 - `pandas`,
 - `tikzplotlib`, (required only to generate plots in `tikz` format)
 - `scipy`,
-- `sklearn`
+- `sklearn`,
 - `Java` for the efficient calculation of hypervolume, see `Hypervolume.java`.
