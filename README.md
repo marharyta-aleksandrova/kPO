@@ -9,7 +9,7 @@ Alternatively, use the following scripts:
 
 1. [`plotting_scripts/selections_40pct.py`](plotting_scripts/selections_40pct.py) - generation of *Figure 5:  Selections of the best 40% according to different sorting criteria*.
 2. [`plotting_scripts/diversity_vs_area.py`](plotting_scripts/diversity_vs_area.py) - generation of *Figure 6:  Fraction of the best elements and diversity*.
-3. [`plotting_scripts/rarification.py`](plotting_scripts/rarification.py) - generation of *Figure 8a* from Annex with rarefication example.
+3. [`plotting_scripts/rarefication.py`](plotting_scripts/rarefication.py) - generation of *Figure 8a* from Annex with rarefication example.
 4. [`plotting_scripts/trade_off.py`](plotting_scripts/trade_off.py) - generation of *Figure 8b* from Annex with trade-off and cone-based relation example.
 5. [`plotting_scripts/PO_whisker.py`](plotting_scripts/PO_whisker.py) - generation of *Figure 12* from Annex with a selection obtained for sorting by Pareto fronts and $k$-Pareto optimality.
 6. [`wealthy_countries`](wealthy_countries) - data and analysis for *Figure 16* from Annex (wealthy and non-wealthy states).
